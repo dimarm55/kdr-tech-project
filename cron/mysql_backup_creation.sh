@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the backup directory
-BACKUP_DIR="/app/backups/mysql"
+BACKUP_DIR="/srv/backup/mysql"
 
 # Get the current date for file naming
 CURRENT_DATE=$(date +"%Y-%m-%d")
