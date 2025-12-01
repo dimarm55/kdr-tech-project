@@ -8,6 +8,7 @@ pipeline{
         stage("Fetch the code") {
             steps{
                 sh 'echo Build completed'
+		sh 'echo By webhook. Proud dummy'
             }
         }
 
